@@ -35,7 +35,7 @@ const NewsCard = ({ news }) => {
                         <Rating
                             placeholderRating={rating.number}
                             emptySymbol={<FaRegStar />}
-                            placeholderSymbol={<FaStar  />}
+                            placeholderSymbol={<FaStar  className='text-warning'/>}
                             fullSymbol={<FaStar className='text-warning'/>}
                         />
                         <span>{rating?.number}</span>
